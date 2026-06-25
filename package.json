@@ -1,6 +1,6 @@
 {
   "name": "glossa-nodejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "High-accuracy language detection for Indian languages with same-script disambiguation.",
   "keywords": [
     "language-detection",
@@ -15,7 +15,7 @@
     "langdetect"
   ],
   "license": "MIT",
-  "author": "Suraj Jha",
+  "author": "Suraj Kumar Jha",
   "homepage": "https://github.com/surajJha/glossa-nodejs#readme",
   "bugs": {
     "url": "https://github.com/surajJha/glossa-nodejs/issues"

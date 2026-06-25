@@ -370,6 +370,10 @@ npm run lint
 npm pack --dry-run
 ```
 
+## Author
+
+Suraj Kumar Jha
+
 ## License
 
 MIT
