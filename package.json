@@ -1,0 +1,46 @@
+{
+  "name": "glossa",
+  "version": "1.0.0",
+  "description": "High-accuracy language detection for Indian languages with same-script disambiguation.",
+  "keywords": [
+    "language-detection",
+    "language-identification",
+    "indian-languages",
+    "hindi",
+    "marathi",
+    "bengali",
+    "assamese",
+    "nlp",
+    "script-detection",
+    "langdetect"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "require": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "glossa": "bin/glossa.js"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "lint": "find src bin test -name '*.js' -print0 | xargs -0 -n1 node --check",
+    "prepack": "npm test && npm run lint"
+  }
+}
